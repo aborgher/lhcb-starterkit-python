@@ -1,0 +1,346 @@
+0.1 == 1/10
+0.1 == 1/10.
+3*0.1 == 3/10.
+int
+int?
+a = int
+a(8.9)
+str?
+a = "a"
+a.upper()
+a
+a.upper()*10
+a.isalpha()
+a
+a = ab
+a = "ab"
+a.isalpha()
+a.isalpha?
+help(a.isalpha())
+help(a.isalpha)
+ls
+"tying the format {0}, {1}".forma(a,"ciao")
+"tying the format {0}, {1}".format(a,"ciao")
+a
+"tying the format {0}, {2}".format(a,"ciao")
+"tying the format {0}, {1}".format(a,"ciao")
+a = 4
+"tying the format {0}, {1}".format(a,"ciao")
+a
+a?
+a??
+print "tying the format {0}, {1}".format(a,"ciao")
+print("tying the format {0}, {1}".format(a,"ciao"))
+"the print in python 3 it works also in python3"
+dir()
+_i35
+get_ipython?
+a = get_ipython()
+a
+a.automagic?
+a.magic?
+a.run_line_magic?
+a = [1,2,3]
+len(a)
+listispowerfull=["yea",1,2.45]
+listispowerfull
+for item in listispowerfull:
+    print item
+a
+print a
+print listispowerfull
+a
+[x*x for x in a]
+b = [x*x for x in a]
+b
+item
+item**2
+'foo'*2
+a[-1:2]
+a[-1]
+a[-1:0]
+a[-1:1]
+a
+a[-1:3]
+a[-1:-3]
+a[3:0]
+a
+a.reverse
+a.reverse()
+a
+a.reverse()
+a
+a[-1]
+a.append('bar')
+a
+a.remove()
+a.remove(-1)
+a.pop?
+a.pop(-1]
+a.pop(-1)
+a
+(3,4,5,"ap")
+b = (3,4,5,"ap")
+b
+list(b)
+b*5
+b
+(b for b in a)
+h = (b for b in a)
+h
+a
+tuple(a)
+a
+h = tuple(a)
+h
+dict(a)
+dict(h)
+ls
+{"key":4}
+a = {"key":4}
+a = {"Ale":"Montevarchi, "Nico": "Parma", "Davide": "Lodi"}
+a = {"Ale":"Montevarchi", "Nico": "Parma", "Davide": "Lodi"}
+a
+for x in a:
+    print x
+for x in a:
+    print a[x]
+for x,y in zip(a):
+    print y
+a
+for x,y in item(a):
+    print y
+ls
+for x,y in iter(a):
+    print y
+ls
+a
+delete a
+delete(a)
+ls
+a
+ls
+for key, value in a.items():
+    print value
+ls
+a.items()
+ls
+a = {"1":101, "2":102, "3":103}
+a
+a.has_key?
+a.has_key(4)
+a.has_key(3)
+a.has_key("3")
+"There is an ordinary dictionary class that is able to take the order of the key-value of the dictionary"
+'ciao"
+a
+a.keys
+a.keys()
+a.values()
+k =a.values()
+[1,2,3] + [2,3]
+def myfunc():
+    print("I must remember to use the right print")
+a = myfunc
+a()
+a
+a.func_code
+a.func_code()
+a.func_code?
+a.func_code
+a.func_doc
+a.func_dict
+a.func_globals
+QUI = 3
+a.func_globals
+a.func_globals()
+a.func_globals.keys
+is "QUI" in a.func_globals.keys
+"QUI" in a.func_globals.keys
+a = a.func_globals
+a.keys
+a.keys()
+"QUI" in a.func_globals.keys()
+len(myfunc)
+a.func_globals.keys()
+a
+"QUI" in a
+a["QUI"]
+def myfunc(name, place):
+    return name + " live in " place
+def myfunc(name, place):
+    return name + " live in " + place
+myfunc("pippo","Topolinia")
+def myfunc(name="Pippo", place):
+    return name + " live in " + place
+def myfunc(name="Pippo", place="Topolinea"):
+    return name + " live in " + place
+myfunc()
+def myfunc(name="Pippo", place="Topolinea"):
+    return "my name {}, my place {}".format(name,place)
+def myfunc(name="Pippo", place="Topolinea"):
+    return "my name {}, my place {}".format(name,place)
+myfunc()
+!ipython --version
+myfunc(place="Paperopoli")
+def build_function(argone):
+    def matrioscafunction(argtwo):
+        return '{0} and {1}'.format(argone, argtwo)
+    return matrioscafunction
+a = build_function("ciao")
+a
+a("pippo")
+def makesquare(x):
+    return x*x
+makesquare(8)
+makesquare("ciao")
+makesquare(8)
+makesquare(makesquare(makesquare(8)))
+makesquare(makesquare(8))
+makesquare(8)
+def makesquare(x): return x*x
+makesquare(8)
+map?
+a = [1,2,3,4]
+map(makesquare,a)
+"map is powerfull, take a list and perform the function to all the elements on the list and return a list with all the results"
+map
+mappina = map
+mappina(3)
+mappina(makesquare,[1,2,3])
+object
+object?
+class Person(object):
+    def __init__(self, name):
+        self.name = name
+class Person(object):
+    def __init__(self, name):
+        self.name = name
+    def greet(self):
+        print("Hello, I am {0}".format(self.name))
+Person?
+Person
+Person("Ale")
+a = Person("Ale")
+a
+a.name
+a.greet
+a.greet()
+dir(x)
+dir(a)
+x.name = "Pippo"
+a.greet()
+a.name = "Pippo"
+a.greet()
+"the members of the class are not protected!!!"
+!less /home/ale/.ipython_history
+ls /home/ale/.ipython/
+ls /home/ale/.ipython/profile_default/
+ls /home/ale/.ipython/profile_default/startup/
+ls /home/ale/.ipython/profile_default/static/
+ls /home/ale/.ipython/profile_default/static/custom/
+ls /home/ale/.ipython/profile_default/history.sqlite
+cat /home/ale/.ipython/profile_default/history.sqlite
+a.newvariable = "newonly for this person"
+a
+dir(a)
+Person("we")
+b = Person("we")
+dir(b)
+class Person(object):
+    def __init__(self, name):
+        self.__name = name
+    def greet(self):
+        print("Hello, I am {0}".format(self.name))
+b = Person("we")
+b
+dir(b)
+b._Person__name = "prova"
+b
+b.greet()
+class Person(object):
+    def __init__(self, name):
+        self.__name = name
+    def greet(self):
+        print("Hello, I am {0}".format(self.__name))
+b = Person("we")
+b._Person__name = "prova"
+b.greet()
+b.__name = "prova2"
+b.greet()
+dir(b)
+class Person(object):
+    def __init__(self, name):
+        self.__name = name
+    def greet(self):
+        print("Hello, I am {0}".format(self.__name))
+b.__repr__()
+b.__doc__()
+b.__doc__
+b.__doc__?
+class Person(object):
+    def __init__(self, name):
+        self.__name = name
+    def greet(self):
+        print("Hello, I am {0}".format(self.__name))
+    def __repr__(self):
+        print("The class is used to do with Person")
+Person("Pippo")
+a = Person("Pippo")
+class Person(object):
+    def __init__(self, name):
+        self.__name = name
+    def greet(self):
+        print("Hello, I am {0}".format(self.__name))
+    def __repr__(self):
+        return "The class is used to do with Person"
+a = Person("Pippo")
+a.__repr__()
+b = Person
+b
+b = Person.__repr__
+b
+class Person(object):
+    def __init__(self, name):
+        self.__name = name
+    def greet(self):
+        print("Hello, I am {0}".format(self.__name))
+    def __repr__(self):
+        return "The class is used to do with Person named {0}".format(self.__name)
+a = Person("Pippo")
+a
+b = a
+b
+"The __repr__ is what the object print when you ask to print the object"
+print b
+a = str("we")
+b = repr("we")
+len(a)
+len(b)
+import os
+os?
+dir(os)
+os.uname
+os.uname?
+os.uname()
+os.mkdir("tmp")
+ls
+os.rmdir("tmp")
+ls
+import tempfile
+"with the module tempfile you can manage temporary files and directory for example create directory with random name so you are sure that you are creating a new one"
+import glob
+import subprocess
+import time
+time.localtime()
+list(time.localtime())
+import collections
+x = collections.OrderedDict(['foo','bar'), ('test',42)])
+x = collections.OrderedDict([('foo','bar'), ('test',42)])
+x
+for key, value in x.items(): print key, value
+a = collections.namedtuple
+collections.namedtuple?
+"with namedtuple you can create something cool such as data structure without create a class on your own, it is a very fast and convinient way"
+ls
+%history
